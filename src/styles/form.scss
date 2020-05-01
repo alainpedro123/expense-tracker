@@ -1,0 +1,12 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    > * { // grab inside the form everything that include input and add style to the,
+     margin-bottom: 1.6rem;
+    }
+}
+
+.form-error{
+    margin: 0 0 1.6rem 0;
+    font-style: italic;
+}

@@ -1,0 +1,22 @@
+.button{
+    background: #1c88bf;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 300;
+    padding: 1.2rem;
+    &:hover{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.button-link{
+    background: none;
+}
+
+.button-secondary{
+    background: #888;
+}

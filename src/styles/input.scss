@@ -1,0 +1,42 @@
+.input-group{
+    //for large screens display im column (row)
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.6rem;
+    
+     //for small screens display im row (column)
+     @media(min-width: 45rem){
+        flex-direction: row;
+        margin-bottom: 3.2rem;
+    }   
+}
+
+.search-expenses{
+    margin-bottom: 1.2rem;
+    //for small screens display that are 45rem or 
+    @media(min-width: 45rem){
+       margin: 0 1.2rem 0 0;
+    } 
+}
+
+.text-input{
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding: 1.2rem;
+}
+
+/* On screens that are 45rem wide or less*/
+.select{
+    @extend .text-input;
+    margin-right: 1.2rem;
+    @media(max-width: 45rem){
+        margin-bottom: 1.2rem;;
+     } 
+}
+
+.textarea{
+    @extend .text-input;
+    height: 10rem;
+}

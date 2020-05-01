@@ -1,0 +1,22 @@
+.header{
+    background: #364051;
+}
+
+.header-title{
+    color:white;
+    &:hover{
+        text-decoration: none;
+        color:white;
+    }
+}
+
+.header-content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+}
+
+h1{
+    margin: 0;     
+}
